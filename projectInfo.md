@@ -22,3 +22,15 @@
   - Video games found a home on consoles, which would’ve never succeeded without platformers like Mario Bros. and Sonic The Hedgehog. Though technology has evolved to include three dimensions, platformers remain relevant through newcomers like Hollow Knight.
 - About Us
   - We’ll introduce readers to the two project creators and offer contact information via an email link.
+
+## Project Requirements
+
+- Create web site with multiple (5-7) pages using html and CSS coding. The site should have the following:
+  - Images
+  - Links (absolute links, relative links, fragment identifier links, image links, email links)
+  - Bullets (ordered list, unordered list, description list)
+  - Tables
+  - Text Alignment
+  - Font changes
+  - Page color
+  - Audio or Streaming
