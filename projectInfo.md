@@ -34,3 +34,12 @@
   - Font changes
   - Page color
   - Audio or Streaming
+
+## Meeting Notes
+
+### 10/24
+
+- Hugh's finding a color palette
+- Brandon's finding fonts
+- Brandon will write some text for home page
+- Hugh will write text for About Us page
