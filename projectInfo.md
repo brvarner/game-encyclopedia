@@ -39,15 +39,16 @@
 
 ### 10/24
 
-- Hugh's finding a color palette
+- Hugo's finding a color palette
 - Brandon's finding fonts
 - Brandon will write some text for home page
-- Hugh will write text for About Us page
+- Hugo will write text for About Us page
 
 ### 10/28
-- Hugh's writing text for FPS/Platformers/Fighting Games
-- I'm doing the homepage 
+
+- Hugo's writing text for FPS/Platformers/Fighting Games
+- I'm doing the homepage
 - I'm writing text for Sports Games and Arcade Games
-    - At least 200 words, cover definitive debut, notable middle history, and where the genre is today
+  - At least 200 words, cover definitive debut, notable middle history, and where the genre is today
 - Both of us are writing 2-3 sentence bios for about us page.
 - Hugo is uploading image of himself to groupPics dir
