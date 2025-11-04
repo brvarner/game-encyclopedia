@@ -48,3 +48,17 @@ h6 {
   padding: 2rem;
   border-collapse: collapse;
 }
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 0;
+}
+
+.navLink {
+  text-decoration: none;
+}
