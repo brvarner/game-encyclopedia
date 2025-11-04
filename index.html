@@ -4,71 +4,87 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gaming Encyclopedia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <h1>Welcome to the Game Encyclopedia!</h1>
+   <object aria-label="Nav Bar" data="/components/nav.html" type="text/html" width="100%"></object>
+    <div class="container">
+      <h1>Welcome to the Game Encyclopedia!</h1>
 
-    <section>
-      <p>
-        This project aims to document and display gaming history for the masses!
-      </p>
-      <p>
-        Video games have become the most profitable form of modern
-        entertainment, with <a>revenues higher</a> than books, films, and
-        recorded music in 2022. But this juggernaut didn't arrive overnight.
-      </p>
-      <p>
-        We'll trace the humble origins of video games from the massive
-        mainframes of the 50's all the way to the sleek smartphones you carry
-        every day. Along the way, we'll explore a few of the most popular genres
-        and explain how they came to be.
-      </p>
-      <p>
-        Learn more about us (link to contact page here), and jump into your
-        journey below!
-      </p>
-    </section>
+      <section>
+        <p>
+          This project aims to document and display gaming history for the masses!
+        </p>
+        <p>
+          Video games have become the most profitable form of modern
+          entertainment, with
+          <a
+            href="https://www.statista.com/chart/22392/global-revenue-of-selected-entertainment-industry-sectors/?__sso_cookie_checker=failed"
+            target="_blank"
+            rel="noopener noreferrer"
+            >revenues higher</a
+          >
+          than books, films, and recorded music in 2022. But this juggernaut
+          didn't arrive overnight.
+        </p>
+        <p>
+          We'll trace the humble origins of video games from the massive
+          mainframes of the 50's all the way to the sleek smartphones you carry
+          every day. Along the way, we'll explore a few of the most popular genres
+          and explain how they came to be.
+        </p>
+        <p>
+          Learn more about us (link to contact page here), and jump into your
+          journey below!
+        </p>
+      </section>
 
-    <section>
-      <h2>Setting The Table</h2>
-      <p>
-        The table below charts out the genres we chose to cover. Click an image
-        to learn more about the genres!
-      </p>
-    </section>
+      <section>
+        <h2>Setting The Table</h2>
+        <p>
+          The table below charts out the genres we chose to cover. Click an image
+          to learn more about the genres!
+        </p>
+      </section>
 
-    <!-- Table for the gaming stuff -->
-    <table>
-      <tr>
-        <th>Genre</th>
-        <th>Definitive Debut</th>
-        <th>Highest Rated (Via Metacritic)</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
+      <!-- Table for the gaming stuff -->
+      <table id="home-table">
+        <tr>
+          <th class="home-table-element">Genre</th>
+          <th class="home-table-element">Definitive Debut</th>
+          <th class="home-table-element">Highest Rated (Via Metacritic)</th>
+        </tr>
+        <tr>
+            <td class="home-table-element">FPS</td>
+            <td class="home-table-element"><a href="/pages/fpsPage.html" target="_parent"> <img src="/assets/images/homeTablePics/wolfenstein_3d.jpg" alt="Wolfenstein 3D from https://indiefanmagazine.blogspot.com/2011/10/wolfenstein-3d.html" class="table-image">Wolfenstein 3D</a></td>
+            <td class="home-table-element"><a href="https://www.metacritic.com/game/perfect-dark-2000/" target="_blank"> <img src="/assets/images/homeTablePics/perfect_dark.jpg" alt="Perfect Dark from https://www.nintendoblast.com.br/2018/05/excelencia-em-sua-mais-bela-forma.html" class="table-image">Perfect Dark</a></td>
+        </tr>
+        <tr>
+          <td class="home-table-element">Sports Games</td>
+          <td class="home-table-element"><a href="/pages/sportsPage.html" target="_parent"><img src="/assets/images/homeTablePics/tennis_for_two.jpg" alt="Tennis for Two from https://www.socialfuturo.com/tal-dia-como-hoy/el-primer-video-juego-de-la-historia/" class="table-image"><br>Tennis for Two</a></td>
+          <td class="home-table-element"><a href="https://www.metacritic.com/game/nfl-2k1/" target="_blank"> <img src="/assets/images/homeTablePics/NFL2K1_cover.jpg" alt="NFL 2k1 Cover from https://en.wikipedia.org/wiki/File:NFL2K1_cover.jpg" class="table-image"><br>NFL 2k1</a></td>
+        </tr>
+        <tr>
+          <td class="home-table-element">Fighting Games</td>
+          <td class="home-table-element"><a href="/pages/fightingPage.html" target="_parent"><img src="/assets/images/homeTablePics/Karate_Champ.png" alt="Karate Champ from https://poucopixel.com/wp-content/uploads/2015/03/Karate_Champ.png" class="table-image"><br>Karate Champ</a></td>
+          <td class="home-table-element"><a href="https://www.metacritic.com/game/soulcalibur/" target="_blank"><img src="/assets/images/homeTablePics/soul_calibur.jpg" alt="Soul Calibur from https://www.gameblast.com.br/2018/02/blast-from-past-soulcalibur.html" class="table-image"><br>SoulCalibur</a></td>
+        </tr>
+        <tr>
+          <td class="home-table-element">Platformers</td>
+          <td class="home-table-element"><a href="/pages/platformerPage.html" target="_parent"><img src="/assets/images/homeTablePics/donkey_kong.jpg" alt="Donkey Kong from https://www.classicgaming.cc/classics/donkey-kong/history" class="table-image"><br>Donkey Kong</a></td>
+          <td class="home-table-element"><a href="https://www.metacritic.com/game/super-mario-galaxy/" target="_blank"><img src="/assets/images/homeTablePics/super_mario_galaxy_by_whatnotdude.jpg" alt="Super Mario Galaxy from https://www.deviantart.com/whatnotdude/art/Super-Mario-Galaxy-Wallpaper-104460671" class="table-image"><br>Super Mario Galaxy</a></td>
+        </tr>
+        <tr>
+          <td class="home-table-element">Arcade Games</td>
+          <td class="home-table-element"><a href="/pages/arcadePage.html" target="_parent"><img src="/assets/images/homeTablePics/computer_space.jpg" alt="Computer Space from https://stash.games/games/computer-space" class="table-image"><br>Computer Space</a></td>
+          <td class="home-table-element"><a href="/pages/arcadePage.html" target="_parent"><img src="/assets/images/homeTablePics/mystery_man.jpg" alt="Mystery man from https://ar.inspiredpencil.com/pictures-2023/mystery-man-silhouette" class="table-image"><br>N/A</a></td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
