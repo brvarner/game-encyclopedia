@@ -36,7 +36,8 @@ h6 {
   font-variation-settings: "width" 100;
 }
 
-#home-table {
+#home-table,
+#about-table {
   border: 4px solid black;
   border-radius: 50px;
   padding: 5rem;
@@ -74,4 +75,8 @@ h6 {
 
 .navLink:hover {
   font-size: 1.5rem;
+}
+
+.about-table-element {
+  align-items: center;
 }
