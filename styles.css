@@ -73,8 +73,13 @@ h6 {
   transition: font-size 2s;
 }
 
+#home-link {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
 .navLink:hover {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .about-table-element {
