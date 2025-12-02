@@ -73,10 +73,6 @@ h6 {
   transition: font-size 2s;
 }
 
-#home-link {
-  text-decoration: none;
-}
-
 .navLink:hover {
   font-size: 1rem;
 }
