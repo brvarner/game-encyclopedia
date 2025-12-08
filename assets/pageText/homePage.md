@@ -13,4 +13,4 @@ Learn more about us (link to contact page here), and jump into your journey belo
 | Sports Games | Tennis for Two |   NFL 2K1 |
 | Fighting Games | Karate Champ |   SoulCalibur |
 | Platformers | Donkey Kong | Super Mario Galaxy |
-| Arcade Games | Computer Space | N/A |
+| Arcade Games | Computer Space | Resident Evil 2 Arcade Machine |
