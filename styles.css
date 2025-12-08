@@ -83,3 +83,14 @@ h6 {
   vertical-align: middle;
   padding: 5px;
 }
+
+.header-image {
+  height: 500px;
+}
+
+.header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
