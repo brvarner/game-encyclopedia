@@ -70,11 +70,14 @@ h6 {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  transition: font-size 2s;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 0.5rem 0;
 }
 
 .navLink:hover {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  transform: scale(1.1);
 }
 
 .about-table-element {
@@ -93,4 +96,5 @@ h6 {
   justify-content: center;
   align-items: center;
   margin: auto;
+  text-align: center;
 }
